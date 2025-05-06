@@ -1,0 +1,38 @@
+/* PC */
+@media (min-aspect-ratio: 1920/1050) and (min-width: 768px) {
+    html {
+        font-size: 0.09523809523vh;
+    }
+}
+
+@media (max-aspect-ratio: 1920/1050) and (min-width: 768px) {
+    html {
+        font-size: 0.05208333333vw;
+    }
+}
+
+/* Tablet */
+@media (min-aspect-ratio: 768/1024) and (max-width: 768px) {
+    html {
+        font-size: 0.09765625vh;
+    }
+}
+
+@media (max-aspect-ratio: 768/1024) and (max-width: 768px) {
+    html {
+        font-size: 0.13020833333vw;
+    }
+}
+
+/* Mobile */
+@media (min-aspect-ratio: 480/1066) and (max-width: 480px) {
+    html {
+        font-size: 0.09375058594vh;
+    }
+}
+
+@media (max-aspect-ratio: 480/1066) and (max-width: 480px) {
+    html {
+        font-size: 0.20833333333vw;
+    }
+}
